@@ -24,7 +24,7 @@ categories: vacancies
   </tr>
   <tr>
     <th>Application</th>
-    <td>(Official vacancy link at TU/e)[https://jobs.tue.nl/en/vacancy/phd-on-machine-learning-for-explainable-neurovascular-image-analysis-1142781.html]</td>
+    <td>[Official vacancy link at TU/e](https://jobs.tue.nl/en/vacancy/phd-on-machine-learning-for-explainable-neurovascular-image-analysis-1142781.html)</td>
   </tr>
 </table>
 

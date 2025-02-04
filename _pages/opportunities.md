@@ -18,7 +18,7 @@ nav_order: 99
 
 
 
-<!-- > We have an **open junior researcher position** to work on the [MIMIC project](https://ained.nl/en/volgende-tien-grensverleggende-ai-onderzoeksprojecten-van-start-vanuit-ained-call-xs-europa-2/) (funded by NWO). We are looking forward to your [application](mailto:r.su@tue.nl)! -->
+> We have an **open PhD position (fully-funded)** to work on the [XAI for neurovascular image analysis](https://jobs.tue.nl/en/vacancy/phd-on-machine-learning-for-explainable-neurovascular-image-analysis-1142781.html)!
 
 ## Vacancies
 

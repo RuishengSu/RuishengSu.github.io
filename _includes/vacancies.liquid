@@ -22,7 +22,7 @@
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
                 <a class="vacancies-title" href="{{ item.url | relative_url }}">
-                  {% if item.status == "closed" %}
+                  {% if item.status == 'closed' %}
                     <span style="text-decoration: line-through; color: gray;">{{ item.title }}</span>
                   {% else %}
                     {{ item.title }}

@@ -20,7 +20,7 @@
             <td>
               {% if item.redirect == blank %}
                 <a class="news-title" href="{{ item.url | relative_url }}">
-                  {% if item.status == "closed" %}
+                  {% if item.status == 'closed' %}
                     <span style="text-decoration: line-through; color: gray;">{{ item.title }}</span>
                   {% else %}
                     {{ item.title }}
@@ -28,7 +28,7 @@
                 </a>
               {% elsif item.redirect contains '://' %}
                 <a class="news-title" href="{{ item.redirect }}" target="_blank">
-                  {% if item.status == "closed" %}
+                  {% if item.status == 'closed' %}
                     <span style="text-decoration: line-through; color: gray;">{{ item.title }}</span>
                   {% else %}
                     {{ item.title }}
@@ -48,7 +48,7 @@
                 </svg>
               {% else %}
                 <a class="news-title" href="{{ item.redirect | relative_url }}">
-                  {% if item.status == "closed" %}
+                  {% if item.status == 'closed' %}
                     <span style="text-decoration: line-through; color: gray;">{{ item.title }}</span>
                   {% else %}
                     {{ item.title }}

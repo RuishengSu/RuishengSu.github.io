@@ -31,12 +31,14 @@ categories: vacancies
 <br>
 
 #### Abstract
+
 Approximately one in four individuals is affected by stroke, a major cause of death and disability. Timely and precise treatment is crucial to rescue the brain. This necessitates accurate identification of stroke versus other conditions with similar clinical presentations, known as stroke mimics. Misdiagnosis carries risks of delayed or wrong treatment. To date, stroke mimics account for up to 40% of all suspected stroke hospital admissions. This project seeks to address the clinical challenge via AI-based innovations. This promises to discover novel clinical knowledge and refine stroke diagnosis, reducing healthcare expenses, and above all, enhancing patient outcomes in stroke care. This project is part of the collaboration with the [Support Center for Advanced Neuroimaging (SCAN)](http://www.scancore.org/) at Inselspital, University of Bern, Switzerland. [--> more details](/assets/vacancies/2024-09-01-junior_researcher_ained_mimic.pdf)
 
-#### Keywords 
+#### Keywords
+
 deep learning, python, image processing, interpretability, image classification, weakly supervised learning, computer vision, statistical analysis, scientific writing, etc.
 
 #### Requirements
+
 - Good knowledge in machine/deep learning and (medical) image processing.
 - Hand-on experience with python programming (e.gl, scikit-learn, PyTorch) and development of machine/deep learning models.
-

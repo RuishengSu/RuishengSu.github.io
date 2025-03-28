@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Opportunities
-description: 
+description:
 permalink: /opportunities/
 nav: true
 nav_order: 99
@@ -16,14 +16,11 @@ nav_order: 99
 #       permalink: /opportunities/phd/
 ---
 
-
-
 > We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)!
 
 ## Vacancies
 
 {% include vacancies.liquid %}
-
 
 ## Master student projects
 

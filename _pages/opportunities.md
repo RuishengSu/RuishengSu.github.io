@@ -18,7 +18,7 @@ nav_order: 99
 
 
 
-> We have an **open PhD position (fully-funded)** to work on the [XAI for neurovascular image analysis](https://jobs.tue.nl/en/vacancy/phd-on-machine-learning-for-explainable-neurovascular-image-analysis-1142781.html)!
+> We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)!
 
 ## Vacancies
 

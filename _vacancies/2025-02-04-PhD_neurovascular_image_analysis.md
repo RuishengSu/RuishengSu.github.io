@@ -28,7 +28,7 @@ categories: vacancies
   </tr>
   <tr>
     <th>Application</th>
-    <td><a href="mailto:r.su@tue.nl">Email me</a></td>
+    <td><a href="mailto:r.su@tue.nl">email me</a></td>
   </tr>
 </table>
 

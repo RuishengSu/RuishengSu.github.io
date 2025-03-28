@@ -23,8 +23,8 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📂 _news/: the news that will appear in the news section in the about page
 ├── 📂 _pages/: contains the pages of the website
 |   └── 📄 404.md: 404 page (page not found)
-├── 📂 _posts/: contains the blog posts
-├── 📂 _projects/: contains the projects
+<!-- ├── 📂 _posts/: contains the blog posts
+├── 📂 _projects/: contains the projects -->
 └── 📂 _sass/: contains the SASS files that define the style of the website
     ├── 📄 _base.scss: base style of the website
     ├── 📄 _cv.scss: style of the CV page

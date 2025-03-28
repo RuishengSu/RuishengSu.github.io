@@ -27,7 +27,13 @@
                   {% endif %}
                 </a>
               {% elsif item.redirect contains '://' %}
-                <a class="news-title" href="{{ item.redirect }}" target="_blank">{% if item.status == "closed" %}<span style="text-decoration: line-through; color: gray;">{{ item.title }}</span></a>
+                <a class="news-title" href="{{ item.redirect }}" target="_blank">
+                  {% if item.status == "closed" %}
+                    <span style="text-decoration: line-through; color: gray;">{{ item.title }}</span>
+                  {% else %}
+                    {{ item.title }}
+                  {% endif %}
+                </a>
                 <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9"

@@ -144,6 +144,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: true
+    permalink: /:collection/:title/
   news:
     defaults:
       layout: post

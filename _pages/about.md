@@ -1,19 +1,19 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Assistant professor, Medical Image Analysis group (IMAG/e), Department of Biomedical Engineering, Eindhoven University of Technology (TU/e)</a>
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  align: left
+  image: me.jpg
+  image_circular: true # crops the image to make it circular
+  # more_info: >
+  #   <p>Department of Biomedical Engineering</p>
+  #   <p>Gemini-Zuid 2.109</p>
+  #   <p>Building 15, Groene Loper 5, 5612 AE Eindhoven</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Ruisheng is an Assistant Professor in the [Medical Image Analysis group (IMAG/e)](https://www.tue.nl/en/research/research-groups/medical-image-analysis) at TU Eindhoven and Research Scientist at Erasmus MC, The Netherlands. He obtained his PhD degree (cum laude) at the Biomedical Imaging Group Rotterdam ([BIGR](https://bigr.nl/)) at [Erasmus MC](https://www.erasmusmc.nl/en/), where his research centered on innovative AI-based medical image/video analysis techniques and clinical applications in minimally invasive endovascular interventions for acute ischemic stroke. Prior to this, he completed his Master's degree from TU Munich, and accrued five years of industrial experience as a software engineer at ASML, and a research scientist at Philips Research. He is the organizing chair of the [SWITCH stroke workshop](https://switchmiccai.github.io/switch/) at MICCAI 2023 and 2024.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+His current research focuses on trustworthy AI-based image analysis methods and applications in the field of neurovascular diseases (e.g., stroke, aneurysms) and image-guided interventions. If you are interested in Ruisheng’s research or have collaboration ideas, feel free to reach out!

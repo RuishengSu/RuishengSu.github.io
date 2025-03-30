@@ -19,12 +19,12 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
 Ruisheng is an Assistant Professor in the [Medical Image Analysis group (IMAG/e)](https://www.tue.nl/en/research/research-groups/medical-image-analysis) at TU Eindhoven and Research Scientist at Erasmus MC, The Netherlands. He obtained his PhD degree (cum laude) at the Biomedical Imaging Group Rotterdam ([BIGR](https://bigr.nl/)) at [Erasmus MC](https://www.erasmusmc.nl/en/), where his research centered on innovative AI-based medical image/video analysis techniques and clinical applications in minimally invasive endovascular interventions for acute ischemic stroke. Prior to this, he completed his Master's degree from TU Munich, and accrued five years of industrial experience as a software engineer at ASML, and a research scientist at Philips Research. He is the organizing chair of the [SWITCH stroke workshop](https://switchmiccai.github.io/switch/) at MICCAI 2023 and 2024.

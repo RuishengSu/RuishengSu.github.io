@@ -16,7 +16,7 @@ nav_order: 99
 #       permalink: /opportunities/phd/
 ---
 
-> We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)!
+<!-- > We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)! -->
 
 ## Vacancies
 
@@ -26,4 +26,4 @@ nav_order: 99
 
 👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated MSc students with an interest in developing novel and impactful AI-based medical image analysis methodologies and applying them for improved diagnosis, treatment, and prognosis of neurovascular diseases and image-guided neuro-interventions in meaningful clinical scenarios. In this context, we offer the following MSc thesis projects. If you get somewhat inspired, please contact us! At the same time, please don't be limited to those ideas. We strongly encourage students to come with own project ideas. We are always interested in discussing with you and supporting you as best as we can. Don't hesitate to contact us!
 
-{% include msc_projects.liquid %}
+<!-- {% include msc_projects.liquid %} -->

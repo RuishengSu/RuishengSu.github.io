@@ -141,11 +141,6 @@ ninja.data = [{
           description: "MIMIC: AI-based Identification of Stroke Mimics by Advanced Neuroimaging",
           section: "Vacancies",handler: () => {
               window.location.href = "/vacancies/junior_researcher_ained_mimic/";
-            },},{id: "vacancies-phd-candidate",
-          title: 'PhD Candidate',
-          description: "Trustworthy Deep Learning for Neurovascular Image Anlaysis",
-          section: "Vacancies",handler: () => {
-              window.location.href = "/vacancies/PhD_neurovascular_image_analysis/";
             },},{
         id: 'social-email',
         title: 'email',

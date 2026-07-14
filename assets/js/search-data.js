@@ -151,12 +151,20 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "vacancies-junior-researcher",
-          title: 'Junior Researcher',
+            },},{id: "vacancies-junior-researcher-ai-based-identification-of-stroke-mimics",
+          title: 'Junior Researcher - AI-based identification of stroke mimics',
           description: "MIMIC: AI-based Identification of Stroke Mimics by Advanced Neuroimaging",
           section: "Vacancies",handler: () => {
               window.location.href = "/vacancies/junior_researcher_ained_mimic/";
-            },},{
+            },},{id: "vacancies-phd-candidate-trustworthy-ai-for-neurovascular-image-anlaysis",
+          title: 'PhD Candidate - trustworthy AI for neurovascular image anlaysis',
+          description: "Trustworthy Deep Learning for Neurovascular Image Anlaysis",
+          section: "Vacancies",handler: () => {
+              window.location.href = "/vacancies/PhD_neurovascular_image_analysis/";
+            },},{id: "vacancies-phd-candidate-q-media-multimodal-image-analysis-in-ischemic-stroke",
+          title: 'PhD Candidate - Q-MeDIA multimodal image analysis in ischemic stroke',
+          description: "Q-MeDIA multimodal image analysis in ischemic stroke",
+          section: "Vacancies",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',

@@ -19,7 +19,13 @@
             <th scope="row" style="width: 20%">{{ item.date | date: '%b, %Y' }}</th>
             <td>
               {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% if item.status == 'closed' %}
+                  <span style="text-decoration: line-through; color: gray;">
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  </span>
+                {% else %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% endif %}
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}

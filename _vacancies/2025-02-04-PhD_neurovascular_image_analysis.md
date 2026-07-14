@@ -5,7 +5,7 @@ date: 2025-02-04
 description: "Trustworthy Deep Learning for Neurovascular Image Anlaysis"
 tags: PhD_researcher
 inline: false
-status: open
+status: closed
 categories: vacancies
 published: false
 ---

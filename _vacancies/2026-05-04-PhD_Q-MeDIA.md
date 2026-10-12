@@ -5,7 +5,7 @@ date: 2026-05-04
 description: "Q-MeDIA multimodal image analysis in ischemic stroke"
 tags: PhD_researcher
 inline: true
-status: open
+status: closed
 categories: vacancies
 published: true
 ---

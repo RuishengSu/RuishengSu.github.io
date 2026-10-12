@@ -43,9 +43,16 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
+    {% endif %}
+
+    {% if page.funders %}
+      <section class="funding" aria-labelledby="funding-title">
+        <h2 id="funding-title">Funding</h2>
+        {% include funding.liquid funders=page.funders %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->

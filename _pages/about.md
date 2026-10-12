@@ -21,6 +21,29 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: # leave blank to include all the news in the `_news` folder
 
+funders:
+  - name: NWO
+    url: https://www.nwo.nl/en
+    logo: /assets/img/funders/nwo.png
+  - name: Health~Holland
+    url: https://www.health-holland.com/
+    logo: /assets/img/funders/health-holland.png
+  - name: National Growth Fund
+    url: https://www.nationaalgroeifonds.nl/
+    logo: /assets/img/funders/national-growth-fund.png
+  - name: TU/e
+    url: https://www.tue.nl/en/our-university/departments/biomedical-engineering
+    logo: /assets/img/funders/tue-bme.png
+  - name: KNAW
+    url: https://www.knaw.nl/en
+    logo: /assets/img/funders/knaw.png
+  - name: DAAD
+    url: https://www.daad.de/en/
+    logo: /assets/img/funders/daad-mark.png
+  - name: ICAI
+    url: https://icai.ai/
+    logo: /assets/img/funders/icai.png
+
 # latest_posts:
 #   enabled: true
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items

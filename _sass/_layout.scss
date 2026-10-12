@@ -38,6 +38,55 @@ body.sticky-bottom-footer {
   }
 }
 
+.funding {
+  margin-top: 2rem;
+}
+
+.funding-logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1rem 0 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0 0.75rem;
+}
+
+.funding-logos__item {
+  align-items: center;
+  display: flex;
+  flex: 1 0 6.875rem;
+  justify-content: center;
+  min-height: 4rem;
+}
+
+.funding-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+}
+
+.funding-logo__image {
+  display: block;
+  height: 3.5rem;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************

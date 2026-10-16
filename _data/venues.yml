@@ -7,3 +7,43 @@
 
 "Vision":
   color: "#009f36"
+
+# Venues used in _bibliography/papers.bib.
+# `color` tints the venue tag and the fallback thumbnail; `url` makes the venue tag a link.
+"MICCAI":
+  url: https://miccai.org
+  color: "#2563eb"
+
+"IJCARS":
+  url: https://link.springer.com/journal/11548
+  color: "#0f766e"
+
+"ArXiv":
+  url: https://arxiv.org
+  color: "#b31b1b"
+
+"SWITCH":
+  color: "#7c3aed"
+
+"CMIG":
+  url: https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics
+  color: "#c2410c"
+
+"JNIS":
+  url: https://jnis.bmj.com
+  color: "#be185d"
+
+"PhD Thesis":
+  color: "#a16207"
+
+"MedPhys":
+  url: https://aapm.onlinelibrary.wiley.com/journal/24734209
+  color: "#047857"
+
+"MedIA":
+  url: https://www.sciencedirect.com/journal/medical-image-analysis
+  color: "#4338ca"
+
+"IEEE TMI":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42
+  color: "#00629b"

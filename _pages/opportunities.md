@@ -14,6 +14,20 @@ nav_order: 99
 #       permalink: /opportunities/postdocs/
 #     - title: PhD Students
 #       permalink: /opportunities/phd/
+msc:
+  list_url: MSC_LIST_URL_PLACEHOLDER
+  contact: r.su@tue.nl
+  intro: >-
+    We are always looking for motivated MSc students who want to develop novel, impactful AI methods for medical image analysis,
+    and apply them to improve the diagnosis, treatment and prognosis of neurovascular diseases and image-guided neuro-interventions
+    in real clinical settings.
+  themes:
+    - Cerebral angiography (DSA)
+    - CT & MR perfusion imaging
+    - Ischemic stroke & stroke mimics
+    - Vessel segmentation
+    - Image-guided neuro-interventions
+    - Trustworthy & robust AI
 ---
 
 <!-- > We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)! -->
@@ -24,6 +38,4 @@ nav_order: 99
 
 ## Master student projects
 
-👩‍🎓🧑‍🏫👩‍⚕️🙋‍♂️ We are always looking for motivated MSc students with an interest in developing novel and impactful AI-based medical image analysis methodologies and applying them for improved diagnosis, treatment, and prognosis of neurovascular diseases and image-guided neuro-interventions in meaningful clinical scenarios. In this context, we offer the following MSc thesis projects. If you get inspired, please contact us! At the same time, please don't be limited to those ideas. We strongly encourage students to come with own project ideas. We are always interested in discussing with you and supporting you as best as we can. Don't hesitate to [contact us](mailto:r.su@tue.nl)!
-
-<!-- {% include msc_projects.liquid %} -->
+{% include msc_info.liquid %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PhD Candidate - trustworthy AI for neurovascular image anlaysis
+title: PhD Candidate - trustworthy AI for neurovascular image analysis
 date: 2025-02-04
 description: "Trustworthy Deep Learning for Neurovascular Image Anlaysis"
 tags: PhD_researcher

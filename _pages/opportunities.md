@@ -15,7 +15,7 @@ nav_order: 99
 #     - title: PhD Students
 #       permalink: /opportunities/phd/
 msc:
-  list_url: MSC_LIST_URL_PLACEHOLDER
+  list_url: "https://tuenl-my.sharepoint.com/:w:/g/personal/r_su_tue_nl/IQAMkv1U0RBZQb0RC0VjBpv-AQbP2RD5wpjIDnKW0Kcuzz0?e=pFStEf"
   contact: r.su@tue.nl
   intro: >-
     We are always looking for motivated MSc students who want to develop novel, impactful AI methods for medical image analysis,

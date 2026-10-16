@@ -21,13 +21,6 @@ msc:
     We are always looking for motivated MSc students who want to develop novel, impactful AI methods for medical image analysis,
     and apply them to improve the diagnosis, treatment and prognosis of neurovascular diseases and image-guided neuro-interventions
     in real clinical settings.
-  themes:
-    - Cerebral angiography (DSA)
-    - CT & MR perfusion imaging
-    - Ischemic stroke & stroke mimics
-    - Vessel segmentation
-    - Image-guided neuro-interventions
-    - Trustworthy & robust AI
 ---
 
 <!-- > We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)! -->

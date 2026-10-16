@@ -57,8 +57,7 @@ ol.bibliography li {
   .pub-thumb-placeholder {
     border: none;
     background-color: var(--venue-color);
-    background-image:
-      radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.28) 0, rgba(255, 255, 255, 0) 45%),
+    background-image: radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.28) 0, rgba(255, 255, 255, 0) 45%),
       radial-gradient(circle at 10% 110%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0) 55%),
       repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0 2px, transparent 2px 12px);
   }

@@ -1,0 +1,53 @@
+{% assign msc = page.msc %}
+{% capture access_mail %}mailto:{{ msc.contact }}?subject={{ 'Access request: MSc project list' | uri_escape }}{% endcapture %}
+<div class="msc">
+  <p class="msc-lead">{{ msc.intro }}</p>
+
+  <div class="msc-cta">
+    <div class="msc-cta-icon"><i class="fa-solid fa-list-check"></i></div>
+    <div class="msc-cta-body">
+      <h3 class="msc-cta-title">Current MSc thesis projects</h3>
+      <p>Our up-to-date list of open projects, with topics, supervisors and clinical partners.</p>
+      <a class="btn msc-cta-btn" href="{{ msc.list_url }}" target="_blank" rel="noopener">
+        Browse MSc projects <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+      <ul class="msc-access">
+        <li><i class="fa-solid fa-building-columns"></i> <strong>TU/e students:</strong> open the list with your TU/e account.</li>
+        <li>
+          <i class="fa-solid fa-envelope"></i> <strong>Not at TU/e?</strong> <a href="{{ access_mail }}">Request access</a> and we'll share it with
+          you.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  {% if msc.themes %}
+    <h3 class="msc-heading">Research themes</h3>
+    <div class="msc-themes">
+      {% for theme in msc.themes %}
+        <span class="msc-theme">{{ theme }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <h3 class="msc-heading">How to apply</h3>
+  <ol class="msc-steps">
+    <li>
+      <span class="msc-step-num">1</span>
+      <div><strong>Pick a project</strong> from the list, or bring your own idea. We're always happy to discuss new ideas.</div>
+    </li>
+    <li>
+      <span class="msc-step-num">2</span>
+      <div>
+        <strong
+          >Email <a href="mailto:{{ msc.contact }}">{{ msc.contact }}</a></strong
+        >
+        with your CV, transcript and the project(s) you're interested in.
+      </div>
+    </li>
+    <li>
+      <span class="msc-step-num">3</span>
+      <div><strong>Meet with us</strong> to talk about the project, supervision and how we can best support you.</div>
+    </li>
+  </ol>
+</div>

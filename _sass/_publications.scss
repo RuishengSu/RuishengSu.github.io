@@ -1,0 +1,197 @@
+// Card-style publication entries (see _layouts/bib.liquid).
+// Each card sets --venue-color inline from _data/venues.yml.
+
+.publications ol.bibliography li,
+ol.bibliography li {
+  .pub-card {
+    --venue-color: var(--global-theme-color);
+    margin: 0 0 1.25rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background-color: var(--global-card-bg-color);
+    transition:
+      box-shadow 0.2s ease,
+      transform 0.2s ease,
+      border-color 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      border-color: color-mix(in srgb, var(--venue-color) 45%, transparent);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .pub-media {
+    margin-bottom: 0.75rem;
+  }
+
+  .pub-thumb {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid var(--global-divider-color);
+
+    figure,
+    picture {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    img.preview {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .pub-card:hover .pub-thumb img.preview {
+    transform: scale(1.04);
+  }
+
+  // Fallback tile when an entry has no `preview` image.
+  .pub-thumb-placeholder {
+    border: none;
+    background-color: var(--venue-color);
+    background-image: radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.28) 0, rgba(255, 255, 255, 0) 45%),
+      radial-gradient(circle at 10% 110%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0) 55%),
+      repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0 2px, transparent 2px 12px);
+  }
+
+  .pub-thumb-inner {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    text-align: center;
+
+    &,
+    span {
+      color: #fff;
+    }
+  }
+
+  .pub-thumb-icon {
+    font-size: 1.6rem;
+    opacity: 0.85;
+  }
+
+  .pub-thumb-venue {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+
+  .pub-thumb-meta {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+  }
+
+  .pub-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .pub-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+  }
+
+  a.pub-tag:hover {
+    text-decoration: none;
+    filter: brightness(1.1);
+  }
+
+  .pub-tag-venue {
+    color: #fff !important;
+    border-color: var(--venue-color);
+    background-color: var(--venue-color);
+    font-weight: 600;
+  }
+
+  .pub-tag-code {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  .pub-tag-award {
+    color: var(--global-highlight-color);
+    border-color: var(--global-highlight-color);
+  }
+
+  .title {
+    font-size: 1.05rem;
+    line-height: 1.35;
+    margin-bottom: 0.25rem;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .author {
+    font-size: 0.9rem;
+  }
+
+  .periodical {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+
+  .pub-tldr {
+    margin-top: 0.4rem;
+    font-size: 0.88rem;
+    padding-left: 0.6rem;
+    border-left: 3px solid var(--venue-color);
+  }
+
+  .links {
+    margin-top: 0.5rem;
+
+    a.btn {
+      border-radius: 999px;
+      font-size: 0.78rem;
+      padding: 0.15rem 0.75rem !important;
+      margin: 0 0.25rem 0.3rem 0;
+
+      i {
+        margin-right: 0.15rem;
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .pub-thumb {
+      aspect-ratio: 16 / 9;
+    }
+
+    .pub-thumb-placeholder {
+      aspect-ratio: 3 / 1;
+    }
+  }
+}

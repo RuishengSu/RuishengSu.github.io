@@ -20,7 +20,7 @@ msc:
   intro: >-
     We are always looking for motivated MSc students who want to develop novel, impactful AI methods for medical image analysis,
     and apply them to improve the diagnosis, treatment and prognosis of neurovascular diseases and image-guided neuro-interventions
-    in real clinical settings.
+    in real clinical settings. Own project ideas are also welcome — just <a href="mailto:r.su@tue.nl">get in touch</a>.
 ---
 
 <!-- > We have an **open PhD position (fully-funded)** to work on the [neurovascular image analysis](/vacancies/PhD_neurovascular_image_analysis/)! -->

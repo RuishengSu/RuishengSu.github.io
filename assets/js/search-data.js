@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Funded research projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-opportunities",
           title: "Opportunities",
           description: "",
@@ -94,51 +101,21 @@ ninja.data = [{
           section: "News",},{id: "news-new-grant-honored-and-greatful-to-have-been-awarded-a-veni-grant-by-the-dutch-research-council-nwo-the-project-titled-uncovering-the-hidden-half-image-based-decision-support-beyond-technical-stroke-treatment-success",
           title: '[New Grant] Honored and greatful to have been awarded a Veni grant by...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-mimic",
+          title: 'MIMIC',
+          description: "National Growth Fund AiNed XS Europe · 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/mimic/";
+            },},{id: "projects-q-media",
+          title: 'Q-MeDIA',
+          description: "Health~Holland · 2026",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/q-media/";
+            },},{id: "projects-uncovering-the-hidden-half",
+          title: 'Uncovering the hidden half',
+          description: "NWO Veni · 2026",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/veni/";
             },},{id: "vacancies-junior-researcher-ai-based-identification-of-stroke-mimics",
           title: 'Junior Researcher - AI-based identification of stroke mimics',
           description: "MIMIC: AI-based Identification of Stroke Mimics by Advanced Neuroimaging",

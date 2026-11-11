@@ -493,6 +493,31 @@ footer.fixed-bottom {
   }
 }
 
+// Visitor globe (RevolverMaps) in the footer. The widget renders at 150px or
+// more and puts a label at the bottom, so render it at 150px, scale it down
+// to an icon and clip it to the globe.
+.footer-globe {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: -4px 0 -4px 12px;
+  vertical-align: middle;
+  overflow: hidden;
+  border-radius: 50%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px !important;
+    height: 150px !important;
+    max-width: none !important;
+    transform: translate(-2px, -1px) scale(0.16);
+    transform-origin: 0 0;
+  }
+}
+
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
